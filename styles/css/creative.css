@@ -1,0 +1,1121 @@
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+/****************************************************/
+/* General */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+    font-weight: 100 !important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;   
+}
+
+hr {
+    max-width: 50px;
+    border-color: #720000;
+    border-width: 3px;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+a {
+    color: #720000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #eb3812;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bg-primary {
+    background-color: #fff;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: black;
+}
+
+.bg-red {
+    color: #fff;
+    background-color: #720000;
+}
+
+.bg-contact {
+    background-image: url(../../images/contact_us_normal.png);
+    background-size: cover;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+section {
+    padding: 100px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.delete-gap {
+    margin-top:-1px;
+}
+
+.xs-not-seen {
+    display: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #720000;
+    height: 50px;
+    color: white;
+}
+
+.footer-container {
+    padding: 0px 20px 0px;
+}
+
+.footer-text
+{
+    margin-bottom: 0;
+    font-size: 10px;
+}
+
+
+/****************************************************/
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    background-color: #720000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+/****************************************************/
+/* LAICFF brand */
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+/****************************************************/
+/* Nav bar options */
+.navbar-default .nav > li > a {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/****************************************************/
+/* Nav bar options: toggle button */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+/* Nav bar options: toggle button: icon bar */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus {
+    background-color: transparent;
+}*/
+
+/****************************************************/
+/* main page poster */
+header {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../../images/header1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 40px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -2px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    font-size: 31px!important;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+/****************************************************/
+/* main page stripe */
+.horizontal-stripe {
+    background-color: #720000;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+
+/****************************************************/
+/* new year poster */
+.img-container {
+    position: relative;
+}
+
+.new-year-poster {
+    width: 100%;
+    height: 300px;
+}
+
+.poster-words {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    top: 80px;
+    right: 10%;
+    padding-bottom: 20px;
+}
+
+#title {
+    font-size: 42px;
+    margin-bottom: 3px;
+    font-weight: 200;
+    margin-top: 1px;
+    letter-spacing: 1px;
+    font-family: 'Muli',sans-serif;
+}
+
+#submit-open {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Tinos', serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.poster-words > a {
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #720000;
+    text-decoration: underline;
+}
+
+/****************************************************/
+.section-heading {
+    margin-top: 10px;
+}
+
+.service-box {
+    margin: 30px auto 0;
+    max-width: 400px;
+}
+
+.service-box p {
+    margin-bottom: 0;
+}
+
+/*.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+    background: #95A5A6;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    opacity: 1 !important;
+    padding: 0 15px;
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+    background: rgba(139,0,0,.9);
+}*/
+
+.call-to-action h2 {
+    margin: 0 auto 20px;
+}
+
+.text-primary {
+    color: #720000;
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-default {
+    border-color: #fff;
+    color: #222;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #ededed;
+    color: #222;
+    background-color: #F2F2F2;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #720000;
+    color: #fff;
+    background-color: #720000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #3f0000;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #720000;
+    background-color: #720000;
+}
+
+.btn-primary .badge {
+    color: #720000;
+    background-color: #fff;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+    font-weight: 200;
+}
+
+.btn-xl {
+    padding: 10px 30px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+::selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #222;
+}
+
+/*** customized css ***/
+
+.light-weight {
+    font-weight: 100 !important;
+    font-size: 50px !important;
+    color: white !important;
+}
+
+.custom-padding {
+    padding-left: 80px !important;
+    padding-right: 60px !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.nav-logo {
+    display: inline-block !important;
+    width: 20px;
+    height: auto;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+
+#submit {
+    background-image: url(../../images/submit.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.block {
+    display: block;
+}
+
+.margin-30 {
+    margin-left: 30%;
+}
+
+
+.text-muted-small {
+  color: #777;
+  font-size: 10px !important;
+}
+
+.text-black {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.custom-form {
+    width: 50% !important;
+    display: inline-block;
+    border-radius: 0px !important;
+    border-width: 0px !important;
+    background-color: white;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.custom-form:focus {
+   color: white !important;
+   background-color: black !important;
+   border-color: #720000 !important;
+   border-radius: 3px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 255, 255, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 255, 255, .6);
+}
+
+.label-before {
+    width: 100px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.sponsor-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-dialog {
+    margin-top: 200px !important;
+} 
+
+.dropdown-menu {
+    border: none !important;
+    text-transform: uppercase;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #720000;
+    color: white; 
+}
+
+.navbar-default .navbar-nav>.open>a {
+    background-color: black !important;
+}
+
+/*add transition when hover*/
+.navbar-default .navbar-nav> li {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+/*change color when hover*/
+.navbar-default .navbar-nav> li:hover {
+
+    background-color: black !important;
+
+}
+.profile-pic {
+    height: 193px !important;
+    width: auto;
+}
+
+.block {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+section {
+    min-height: 500px !important;
+}
+
+#about {
+    padding: 50px 0px;
+}
+
+.isfa-logo {
+    width: 300px;
+    height: auto;
+}
+
+
+/*** Animation ***/
+
+/* slide in from the bottom */
+/*@-webkit-keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}*/
+
+/*@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+*/
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+.ng-enter { 
+    animation: fadein 0.3s both ease-in-out;
+    -webkit-animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+
+    }
+
+.ng-leave { 
+    animation: fadeout 0.3s both ease-in-out;
+    -webkit-animation: fadeout 0.3s;
+    -moz-animation: fade 0.3s;
+}
+
+.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.dropdown-submenu{
+    position: relative;
+}
+
+.dropdown-submenu:hover > a {
+
+    background-color: #720000;
+    color: white;
+}
+
+.dropdown-submenu .dropdown-menu{
+    top:0;
+    right:100%;
+    margin-top:-5px;
+}
+
+.ng-cloak {
+    display:none !important;
+}
+
+.judge-box {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.half {
+    width: 49.5%;
+    display: inline-block;
+}
+
+
+.img-hover {
+    -webkit-transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.img-hover:hover {
+    opacity: 0.9;
+   -webkit-transform: scale(1.03);
+}
+
+
+.img-size {
+height: 11em;
+width: 100%;
+background-size: cover;
+}
+
+.img-rounded {
+  border-radius: 6px; 
+}
+
+
+.inset {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 100%;
+}
+
+.img-fit {
+    width: 100%;
+    height: 100%;
+}
+
+/* xs, sm, md, lg */
+@media(min-width:480px) {
+    /****************************************************/
+    /* General */
+    /* Footer */
+    .footer-container {
+        padding: 15px 20px 0px;
+    }
+
+    .footer-text
+    {
+        font-size: 13px;
+    }
+
+    /****************************************************/
+    /* main page poster */
+    header .header-content {
+        padding-top: 120px;
+    }
+
+    header .header-content .header-content-inner p {
+        font-size: 40px!important;
+        max-width: 70%;
+    }
+
+    /****************************************************/
+    /* new year poster */
+    .poster-words {
+        width: 70%;
+        top: 70px;
+        right: 15%;
+        padding-bottom: 10px;
+    }
+
+    #title {
+        font-size: 52px;
+        margin-bottom: 1px;
+        margin-top: -8px;
+    }
+
+    #submit-open {
+        font-size: 23px;
+        margin-bottom: 10px;
+        letter-spacing: 5px;
+    }
+
+    .poster-words > a {
+        font-size: 18px;
+    }
+
+}
+
+/* sm, md, lg */
+@media(min-width:768px) {
+    /****************************************************/
+    /* General */
+    .xs-not-seen {
+        display: block;
+    }
+
+    .footer-text
+    {
+        font-size: 16px;
+    }
+
+    /****************************************************/
+    /* Nav bar */
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: #720000;
+    }
+
+    /****************************************************/
+    /* LAICFF brand */
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.95);
+        font-size: 19px;
+        padding:10px 15px 10px 15px;
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    /****************************************************/
+    /* LAICFF brand-logo */
+    .nav-logo {
+        width: 26px;
+        margin-bottom: 5px;
+        margin-right: 12px;
+    }
+
+    /****************************************************/
+    /* Nav bar options */
+    .navbar-default .nav > li > a {
+        color: #fff;
+    }
+
+    .navbar-default .nav> li > a:hover,
+    .navbar-default .nav> li > a:focus {
+        color: #fff;
+    }
+
+    /****************************************************/
+    /* main page poster */
+    header .header-content {
+        position: absolute;
+        margin-top: 120px;
+        padding: 0 50px;
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .header-content-inner p {
+        max-width: 80%;
+        font-size: 45px!important;
+    }
+    
+    /****************************************************/
+    /* new year poster */
+    .new-year-poster {
+        height: auto;
+    }
+
+    .poster-words {
+        width: 40%;
+        top: 50px;
+        right: 30%;
+        padding-bottom: 15px;
+    }
+
+    #title {
+        font-size: 48px;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
+
+    #submit-open {
+        font-size: 18px;
+        margin-bottom: 5px;
+        letter-spacing: 7px;
+        text-shadow: 0.5px 0.5px black;
+    }
+
+    .poster-words > a {
+        font-size: 16px;
+    }
+
+    .service-box {
+        margin: 30px 30px;
+    }
+
+    .margin-30 {
+    margin-left: 0;
+    }
+
+    /****************************************************/
+    /*DON'T UNDERSTAND*/
+    /*
+    .navbar-default .nav > li > a,
+    .navbar-default .nav> li > a:focus {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fff;
+    }*/
+
+    /*
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #720000;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #fff;
+    }
+
+
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #fff;
+    }
+    */
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 812px) {
+    .left {
+        margin-left: 6.0391014443%;
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 55.6791368581%;
+    }
+
+    .right {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 30.0556047414%;
+    }
+
+    .right:last-child {
+        margin-right: 0;
+    }
+
+    section.border {
+    padding: 1.618em;
+    margin-bottom: 2.188em;
+    border: 1px solid #888888;
+    }
+}
+
+/* md, lg*/
+@media(min-width:992px) {
+    /****************************************************/
+    /* LAICFF brand */
+    .navbar-default .navbar-header .navbar-brand {
+        padding:10px 15px 10px 80px;
+    }
+
+    /* LAICFF brand-logo */
+    .nav-logo {
+        margin-right: 15px;
+    }
+
+    /****************************************************/
+    /* main page poster */
+    header {
+        min-height: 570px;
+    }
+
+    .logo {
+        width: 230px;
+    }
+
+    header .header-content .header-content-inner p {
+        max-width: 80%;
+        font-size: 55px!important;
+    }
+
+    /****************************************************/
+    /* new year poster */
+    .poster-words {
+        width: 40%;
+        top: 60px;
+        right: 30%;
+        padding-bottom: 15px;
+    }
+
+    #title {
+        font-size: 62px;
+        margin-bottom: 5px;
+        margin-top: -10px;
+    }
+
+    #submit-open {
+        font-size: 23px;
+        margin-bottom: 5px;
+        letter-spacing: 9px;
+        margin-top: -10px;
+        text-shadow: 0.5px 0.5px black;
+    }
+
+    .poster-words > a {
+        font-size: 21px;
+    }
+
+    .service-box {
+        margin: 30px 30px;
+    }
+
+    .margin-30 {
+    margin-left: 0;
+    }
+}
+
+/* lg */
+@media(min-width:1200px) {
+    /****************************************************/
+    /* new year poster */
+    .poster-words {
+        position: absolute;
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        width: 40%;
+        top: 70px;
+        right: 30%;
+        padding-bottom: 20px;
+    }
+
+    #title {
+        font-size: 78px;
+        margin-bottom: 0px;
+        font-weight: 200;
+        margin-top: -10px;
+        letter-spacing: 1px;
+    }
+
+    #submit-open {
+        font-size: 32px;
+        margin-bottom: 5px;
+        font-family: 'Tinos', serif;
+        font-weight: 900;
+        letter-spacing: 9px;
+        margin-top: -10px;
+    }
+
+    .poster-words > a {
+        font-size: 25px;
+        font-family: 'Lora', serif;
+        font-style: italic;
+        color: #720000;
+        text-decoration: underline;
+    }
+}

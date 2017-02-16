@@ -1,0 +1,163 @@
+    <section id="top" class="bg-primary">
+      <div ng-show="showJudges">
+        <div class="container">
+            <div class="row">
+                <div class="custom-padding">
+                    <h2 class="text-center text-primary section-heading">Judges</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+              <!-- <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/unnamed-2.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Fabian Wagmister</h3>
+                    <p class="text-black">Chair of Production at UCLA School of Theater, Film and Television </p>
+                    <p class="text-black"><a ng-click="showJudgeInfo(2)" class="btn btn-primary" role="button">More info</a> </p>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/unnamed-0.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Mike Gabrawy</h3>
+                    <p class="text-black">Chief Creative Officer of Arclight Films; Producer</p>
+                    <p><a ng-click="showJudgeInfo(0)" class="btn btn-primary" role="button">More info</a> </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/mitchelle-block.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Mitchelle Block</h3>
+                    <p class="text-black"> Professor at USC School of Cinematic Arts. President of Direct Cinema Ltd </p>
+
+                    <p><a ng-click="showJudgeInfo(3)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/unnamed-1.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Michael Berry</h3>
+                    <p class="text-black"> Chinese cinema scholar and literature translator; Jury member for the Golden Horse Film Festival 2011 </p>
+                    <p><a ng-click="showJudgeInfo(1)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/unnamed-4.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Virginia Kuhn</h3>
+                    <p class="text-black"> Director, Honors in Multimedia Scholarship Director, Digital Media and Culture Graduate Cerfiticate </p>
+                    <p><a ng-click="showJudgeInfo(4)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/gina-kim.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Gina Kim</h3>
+                    <p class="text-black">Filmmaker, Jury member for the 66th Venice Film Festival</p>
+                    <p><a ng-click="showJudgeInfo(5)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/robert-chi.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Robert Chi</h3>
+                    <p class="text-black">Associate Professor, Asian Language & Cultures at UCLA </p>
+                    <p><a ng-click="showJudgeInfo(6)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/michael-emmerich.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Michael Emmerich</h3>
+                    <p class="text-black">Associate Professor, Asian Language & Cultures at UCLA </p>
+                    <p><a ng-click="showJudgeInfo(7)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="judge-box">
+                  <img ng-src="images/judges/maja.png" class="profile-pic" alt="...">
+                  <div class="caption">
+                    <h3 class="text-primary">Maja Manojlovic</h3>
+                    <p class="text-black">Lecturer at UCLA School of Theater, Film and Television Faculty at Chapman’s College of Film and Media Arts</p>
+
+                    <p><a ng-click="showJudgeInfo(8)" class="btn btn-primary" role="button">More info</a> </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+            <div class="container" ng-show="showJudge0Info">
+              <div ng-include="'/views/judges/mike.html'"> </div>
+            </div>
+
+            <div class="container" ng-show="showJudge1Info">
+              <div ng-include="'/views/judges/michael.html'"> </div>
+            </div>
+
+            <div class="container" ng-show="showJudge2Info">
+              <div ng-include="'/views/judges/fabian.html'"> </div>
+            </div>
+
+            <div class="container" ng-show="showJudge3Info">
+              <div ng-include="'/views/judges/mitchelle.html'"> </div>
+            </div>  
+
+            <div class="container" ng-show="showJudge4Info">
+              <div ng-include="'/views/judges/virginia.html'"> </div>
+            </div>
+
+            <div class="container" ng-show="showJudge5Info">
+              <div ng-include="'/views/judges/gina.html'"> </div>
+            </div>
+
+            <div class="container" ng-show="showJudge6Info">
+              <div ng-include="'/views/judges/robert.html'"> </div>
+            </div>
+
+            <div class="container" ng-show="showJudge7Info">
+              <div ng-include="'/views/judges/michael-e.html'"> </div>
+            </div>  
+
+            <div class="container" ng-show="showJudge8Info">
+              <div ng-include="'/views/judges/maja.html'"> </div>
+            </div>
+
+
+
+    </section>
+    <div ng-include="'/views/footer.html'"> </div>
+
